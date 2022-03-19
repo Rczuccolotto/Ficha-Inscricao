@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoraCorrer - Inscrição</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+
+</head>
+
+<body>
+    <form class="formulario" id="formulario">
+
+        <h1 class="titulo">Formulário de Inscrição</h1><br>
+
+        <p class="formulario_mensagens" id="mensagens"></p>
+
+        <label class="formulario_rotulo">Nome: *</label><br>
+        <input class="formulario_campo" type="text" name="nome" size="25" maxlength="30" placeholder="Nome Completo" required><br><br>
+
+        <label class="formulario_rotulo">E-mail: *</label><br>
+        <input class="formulario_campo" type="email" name="email" size="25" maxlength="40" placeholder="E-mail para contato" required><br><br>
+
+        <label class="formulario_rotulo">Telefone: *</label><br>
+        <input class="formulario_campo" type="tel" name="tel" size="25" maxlength="12" placeholder="Telefone com DDD" required><br><br>
+
+        <label class="formulario_rotulo">Data de Nascimento: *</label><br>
+        <input class="formulario_campo" type="date" name="date" required><br>
+
+        <p>* campos com preechimento obrigatório</p><br>
+
+        <button class="formulario_botao formulario_botao--ativo" type="submit">Enviar</button>
+
+    </form>
+    <script src="script.js" defer></script>
+
+    <footer id="rodape">
+        <p>&copy; Rodrigo Cesar Zuccolotto</p>
+    </footer>
+
+</body>
+
+</html>
